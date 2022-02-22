@@ -1,7 +1,7 @@
 # Reading Notes
 ## This website contains the Reading notes from the beginning of the course.
 ## Code 102 - Intro to Software Development
-# SQL 
+# [SQL](https://github.com/hind-hb/reading-notes/blob/main/sql.md).
 # SoloLearn
 ![cert-25078720-1073](https://user-images.githubusercontent.com/75991604/155158154-d2d3280b-9878-4ce3-92ad-f1542cae659c.png)
 
