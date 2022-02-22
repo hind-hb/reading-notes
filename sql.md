@@ -330,4 +330,9 @@ DROP TABLE Movies;
  And drop the BoxOffice table as well
 DROP TABLE BoxOffice;
 ![ex18](https://user-images.githubusercontent.com/75991604/155154103-25495261-6d12-4f54-91b8-25cafb95db06.png)
+**Finish**
+
+![finish](https://user-images.githubusercontent.com/75991604/155181626-da76e504-e695-46dd-b596-22cf0c30eac7.png)
+
+
 
