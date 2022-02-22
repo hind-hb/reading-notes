@@ -1,7 +1,7 @@
 ## SQL
 
 ### Exercise 01 
-** Find the title of each movie**
+**Find the title of each movie**
 SELECT Title
 FROM Movies;
 
@@ -9,7 +9,7 @@ FROM Movies;
 SELECT Director
 FROM Movies;
 
-** Find the title and director of each movie**
+**Find the title and director of each movie**
 SELECT Title, Director
 FROM Movies;
 
@@ -17,19 +17,19 @@ FROM Movies;
 SELECT Title, Director
 FROM Movies;
 
-** Find all the information about each movie**
+**Find all the information about each movie**
 SELECT *
 FROM Movies;
 ![ex1](https://user-images.githubusercontent.com/75991604/155153396-5f750a46-a525-4146-812d-67a5b1c2d66b.png)
 ### Exercise 02
  CH2 - Queries with constraints (Pt. 1)
 
-** Find the movie with a row id of 6**
+**Find the movie with a row id of 6**
 SELECT *
 FROM Movies
 WHERE Id = 6;
 
-** Find the movies released in the years between 2000 and 2010**
+**Find the movies released in the years between 2000 and 2010**
 SELECT *
 FROM Movies
 WHERE Year BETWEEN 2000 AND 2010;
@@ -52,17 +52,17 @@ SELECT *
 FROM Movies
 WHERE Title LIKE "%Toy Story%";
 
-** Find all the movies directed by John Lasseter**
+**Find all the movies directed by John Lasseter**
 SELECT *
 FROM Movies
 WHERE Director = "John Lasseter";
 
-** Find all the movies (and director) not directed by John Lasseter**
+**Find all the movies (and director) not directed by John Lasseter**
 SELECT *
 FROM Movies
 WHERE Director != "John Lasseter";
 
-** Find all the WALL-* movies**
+**Find all the WALL-* movies**
 SELECT *
 FROM Movies
 WHERE Title LIKE "%WALL%";
@@ -71,18 +71,18 @@ WHERE Title LIKE "%WALL%";
 ### Exercise 04
 ** CH4 - Filtering and sorting Query results**
 
-** List all directors of Pixar movies (alphabetically), without duplicates**
+**List all directors of Pixar movies (alphabetically), without duplicates**
 SELECT DISTINCT Director
 FROM Movies
 ORDER BY Director;
 
-** List the last four Pixar movies released (ordered from most recent to least)**
+**List the last four Pixar movies released (ordered from most recent to least)**
 SELECT *
 FROM Movies
 ORDER BY Year DESC
 LIMIT 4;
 
-** List the first five Pixar movies sorted alphabetically**
+**List the first five Pixar movies sorted alphabetically**
 SELECT *
 FROM Movies
 ORDER BY Title ASC
