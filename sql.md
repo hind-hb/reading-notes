@@ -22,7 +22,7 @@ SELECT *
 FROM Movies;
 ![ex1](https://user-images.githubusercontent.com/75991604/155153396-5f750a46-a525-4146-812d-67a5b1c2d66b.png)
 ### Exercise 02
- CH2 - Queries with constraints (Pt. 1)
+ CH2 - Queries with constraints
 
 **Find the movie with a row id of 6**
 SELECT *
@@ -45,7 +45,7 @@ FROM Movies
 WHERE Id BETWEEN 1 AND 5;
 ![ex2](https://user-images.githubusercontent.com/75991604/155153422-ba94af4e-4ac8-488a-b22a-79fb5ab06620.png)
 ### Exercise 03
- CH3 - Queries with constraints (Pt. 2)
+ CH3 - Queries with constraints
 
 **Find all the Toy Story movies**
 SELECT *
@@ -205,7 +205,7 @@ LEFT JOIN Boxoffice ON Id=Movie_Id
 WHERE Year % 2 = 0;
 ![ex9](https://user-images.githubusercontent.com/75991604/155153702-1e040848-d290-48b2-a335-005f72957d48.png)
 ### Exercise 10
- **CH10 - Queries with aggregates (Pt. 1)**
+ **CH10 - Queries with aggregates**
 
 **Find the longest time that an employee has been at the studio**
 SELECT MAX(Years_employed)
@@ -222,7 +222,7 @@ FROM Employees
 GROUP BY Building;
 ![ex10](https://user-images.githubusercontent.com/75991604/155153763-cd2a5a15-1a11-4231-b9dc-9c58cd20faa0.png)
 ### Exercise 11
-**CH11 - Queries with aggregates (Pt. 2)**
+**CH11 - Queries with aggregates**
  **Find the number of Artists in the studio (without a HAVING clause)**
 SELECT Role, COUNT(*) AS Number_of_Artists
 FROM Employees
