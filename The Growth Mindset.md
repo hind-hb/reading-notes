@@ -15,6 +15,9 @@ Your technical skills are developed by deliberate practice. This means an activi
 
 ## Assessing Bias
 ![aa](https://user-images.githubusercontent.com/75991604/155344502-fd109c4f-67dd-40bd-962c-3966dd6da60c.png)
+
 I will focus on improving myself in effective courage and doing things more positively
+
 I will try to find out more ways to work and follow them
+
 I am not a prejudiced or racist person for any party
