@@ -19,6 +19,7 @@
 | READ08  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read08.md)  |
 | READ09  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read09.md)  |
 | READ10  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read10.md)  |
+| READ11  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read11.md)  |
 
 ## *Code 201 - Foundations of Software Development*
 
