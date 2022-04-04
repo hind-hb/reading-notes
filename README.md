@@ -22,7 +22,7 @@
 | READ11  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read11.md)  |
 | READ12  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read12.md)  |
 | READ13  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read13.md)  |
-
+| READ14  |[LINK](https://github.com/hind-hb/reading-notes/blob/main/Read14.md)  |
 ## *Code 201 - Foundations of Software Development*
 
 ## *Code 301 - Intermediate Software Development*
